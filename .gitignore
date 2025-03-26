@@ -1,0 +1,57 @@
+# Ignore build directories
+/bin/
+/build/
+/out/
+/target/
+.gradle/
+/mvn/
+
+# Ignore IntelliJ project files
+.idea/
+.idea/workspace.xml
+.idea/gradle.xml
+.idea/libraries/
+*.iml
+
+# Ignore Eclipse project files
+.project
+.classpath
+.settings/
+
+# Ignore NetBeans project files
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/nbactions.xml
+/nb-configuration.xml
+
+# Ignore VS Code settings
+.vscode/
+
+
+# Ignore compiled Java files
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignore log files
+*.log
+/logs/
+/*.pid
+
+# Ignore dependency caches
+**/node_modules/
+/.gradle/
+/.mvn/
+!**/src/main/**/lib/  # Exclude dependencies but keep your custom libraries
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore generated files
+*.swp
+*.swo
+*.bak
